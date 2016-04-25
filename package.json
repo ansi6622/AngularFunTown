@@ -4,7 +4,7 @@
   "description": "bring in bootstrap bring in angular npm init to help with serving to node look in the scripts section of pkg json create html file, create js file (obvi)",
   "main": "fun.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -c-1 -o"
   },
   "keywords": [],
   "author": "",
