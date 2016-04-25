@@ -12,8 +12,14 @@
 1. `npm start`
 1. made readme, taking notes from the second iteration of building this app
 
-bring in bootstrap
-bring in angular
+#### Add bootstrap
+
+* find current CDN
+
+### Add Angular
+
+* find current CDN
+
 npm init to help with serving to node
 look in the scripts section of pkg json
 create html file, create js file (obvi)
