@@ -1,3 +1,17 @@
+# README
+
+### How did this get made
+
+1. make directory, `git init`, `npm init -y`
+1. Change test script to start script with this value:
+
+  ```json
+  "start": "http-server -c-1 -o"
+  ```
+1. touch index, html-ify and add header to make sure stuff renders
+1. `npm start`
+1. made readme, taking notes from the second iteration of building this app
+
 bring in bootstrap
 bring in angular
 npm init to help with serving to node
