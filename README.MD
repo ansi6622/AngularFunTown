@@ -1,4 +1,8 @@
 # README
+### Get Puppy workin
+
+1. Fork Clone
+1. `npm start` or open index.html with browser
 
 ### How did this get made
 
@@ -18,7 +22,20 @@
 
 ### Add Angular
 
-* find current CDN
+1. find current CDN
+1. in html body put `{{1+2}}` (to test angular)
+1. add `add ng-app` as attribute to html
+
+### Add Input
+
+copy and paste from a bootstrap template ( i havent yet)
+
+#### Hoooked up  model and display on page
+
+1. Added `ng-model="name"` as attribute to input
+1. Added `{{name}}` to h1 to output the name
+
+
 
 npm init to help with serving to node
 look in the scripts section of pkg json
