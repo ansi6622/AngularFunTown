@@ -1,7 +1,8 @@
 bring in bootstrap
 bring in angular
-
-create html file, create js file
+npm init to help with serving to node
+look in the scripts section of pkg json
+create html file, create js file (obvi)
 
 Referenced code:
 
@@ -21,7 +22,9 @@ angular.module('HelloUserApp', [])
       <h2></h2>
       </div>
       </div>
-
+---
+---
+---
 
 angular.module('HelloWorldApp', [])
  .controller('HelloWorldController', function($scope) {
@@ -35,3 +38,27 @@ angular.module('HelloWorldApp', [])
         <h1></h1>
     </div>
 </div>
+---
+---
+---
+<!-- <div ng-app="HelloUserApp">
+    <div ng-controller="HelloUserController">
+        <input ng-model="name" ng-keyup="NameChange()">
+        <h1>{{name}}</h1>
+        <h2>{{greeting}}</h2>
+    </div>
+</div>
+</body>
+</html> -->
+
+
+---
+---
+
+<!--
+ angular.module('HelloUserApp', [])
+       .controller('HelloUserController', function($scope) {
+           $scope.NameChange = function () {
+               $scope.greeting = "Hello " + $scope.name;
+           };
+       }); -->
